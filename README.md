@@ -1,3 +1,36 @@
+# Shopme – Smart Marketplace App
+
+This is a **React Native** project where I built a **marketplace app** similar to OLX or Facebook Marketplace. Users can post items for sale, browse listings, search and filter products, chat with sellers, and manage their profiles. All data is stored on **Firebase**, and the app supports both **Light and Dark themes** with a modern, responsive UI.
+
+---
+
+## Features
+
+- **User Authentication**: Sign up and log in using email and password (Firebase Auth).  
+- **Post Management**: Create, edit, and delete listings with images uploaded via Firebase Storage.  
+- **Search & Filters**: Search for products and filter by categories.  
+- **Product Feed**: Browse listings from all users in an optimized scrollable list (FlashList).  
+- **Product Details**: View product images, title, price, description, and seller info.  
+- **Messaging**: Chat with sellers in real-time using Firebase Firestore updates.  
+- **Notifications**: Push notifications using Firebase Cloud Messaging (setup enabled).  
+- **Profile Management**: View and edit profile information, including profile picture and bio.  
+- **Offline Support**: Cached data and offline access using Redux Toolkit Query.  
+- **UI/UX Enhancements**: Light & Dark mode, fast image loading using React Native Fast Image.  
+
+---
+
+## Tech Stack
+
+1. **Frontend**: React Native, JavaScript  
+2. **Backend / Database**: Firebase (Authentication, Firestore, Storage, Cloud Messaging)  
+3. **State Management**: Redux Toolkit 
+4. **Navigation**: React Navigation v7  
+5. **Optimized Lists & Images**: FlashList, React Native Fast Image  
+6. **API Caching / Offline Support**: Redux Toolkit Query  
+
+---
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
